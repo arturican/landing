@@ -1,0 +1,28 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Учебный проект — адаптивный лендинг на HTML, CSS и JS для практики и портфолио.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write --config styles/.prettierrc --ignore-path styles/.prettierignore",
+    "format:check": "prettier . --check --config styles/.prettierrc --ignore-path styles/.prettierignore",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturican/landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arturican/landing/issues"
+  },
+  "homepage": "https://github.com/arturican/landing#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.8.1"
+  }
+}
