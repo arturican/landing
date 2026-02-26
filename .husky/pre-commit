@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-npx prettier . --check --config styles/.prettierrc --ignore-path styles/.prettierignore
+npm run format:check
