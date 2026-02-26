@@ -4,7 +4,7 @@ body {
 h1 {
   font-size: 32pt;
   text-align: center;
-   font-family: Verdana;
+  font-family: Verdana;
 }
 p {
   font-size: 14pt;
@@ -27,7 +27,7 @@ p.greeting {
 }
 
 ul li strong {
-    font-style: italic;
+  font-style: italic;
 }
 
 address {
